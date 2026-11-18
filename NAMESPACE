@@ -1,0 +1,4 @@
+export(conindex)
+export(conindex_results)
+S3method(print,conindex)
+S3method(confint,conindex)

@@ -1,0 +1,34 @@
+Package: polecon
+Title: Quantitative Methods for Political Economy
+Version: 0.1.0
+Authors@R: c(
+    person("Stefanos", "Stavrianos", email = "stefanstavrianos@aua.gr",
+           role = c("aut", "cre", "cph")),
+    person("Owen", "O'Donnell", role = c("ctb", "cph")),
+    person("Stephen", "O'Neill", role = c("ctb", "cph")),
+    person("Tom", "Van Ourti", role = c("ctb", "cph")),
+    person("Brendan", "Walsh", role = c("ctb", "cph"))
+    )
+Description: Computes weighted rank-dependent concentration and inequality
+    indices with explicit treatment of tied ranks. Implements the relative,
+    generalized, modified, Wagstaff-normalized and Erreygers-normalized
+    estimators described by O'Donnell et al. (2016)
+    <doi:10.1177/1536867X1601600112>. A replicate-weight survey design can
+    estimate sampling uncertainty while recomputing fractional ranks for
+    every replicate. This is an independently restructured R implementation
+    informed by the 'Stata' command distributed under the GPL-3 license.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Suggests: survey, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2026-10-31 18:00:24 UTC; stefanstavrianos
+Author: Stefanos Stavrianos [aut, cre, cph],
+  Owen O'Donnell [ctb, cph],
+  Stephen O'Neill [ctb, cph],
+  Tom Van Ourti [ctb, cph],
+  Brendan Walsh [ctb, cph]
+Maintainer: Stefanos Stavrianos <stefanstavrianos@aua.gr>
+Repository: CRAN
+Date/Publication: 2026-11-18 21:40:02 UTC

@@ -1,0 +1,16 @@
+Attribution and licensing
+-------------------------
+The underlying index definitions and the earlier Stata implementation
+('conindex') are due to Owen O'Donnell, Stephen O'Neill, Tom Van Ourti,
+and Brendan Walsh. The RePEc Statistical Software Components listing
+S458111 distributes the Stata program under GNU GPL version 3.
+
+This R implementation is a derivative research adaptation prepared by
+Stefanos Stavrianos. All included source is distributed under GPL-3.
+The original authors are credited as contributors/copyright holders in
+DESCRIPTION. No endorsement by the original Stata authors is implied.
+
+Reference:
+O'Donnell, O., O'Neill, S., Van Ourti, T. and Walsh, B. (2016).
+Conindex: Estimation of concentration indices. The Stata Journal,
+16(1), 112-138. doi:10.1177/1536867X1601600112.
